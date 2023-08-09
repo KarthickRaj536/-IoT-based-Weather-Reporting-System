@@ -67,8 +67,8 @@ print(data_to_send)
 r=requests.post("https://hook.eu1.make.com/pwgt47l8l8ldy1uew1ocjsng2awbrs1q",json=data_to_send)
 print(r.status_code)
 
-account_id='AC49a217050e42aa0184123e0f3c67a96f'
-auth_token='d63d927c355b251c102e272e2b98cd8d'
+account_id='YOUR ACCOUNT ID'
+auth_token='YOUR AUTHORIZATION TOKEN'
 client=Client(account_id,auth_token)
 if (result.temperature>=20.00 and result.temperature<=32.00):
         print("Ideal Weather Conditions : Enjoy the pleasant day ")
